@@ -1,9 +1,17 @@
-const square = require('../lib/square');
+const Square = require('../lib/square');
 
-describe('square', () => {
-    it("Test for square with blue", () => {
-        const shape = new square();
-        shape.setColor("blue");
-        expect(shape.render()).toEqual(`<rect x="50" width="200" height="200" fill="blue" />`);
-    })
-})
+describe('Square', () => {
+  describe('Render Method', () => {
+    it('should render square string', () => {
+      const square = new Square({
+        logoName: 'Ted',
+        textColour: 'red',
+        logoColour: 'orange',
+        logoShape: 'square',
+      });
+      expect(square.render()).toBe(
+        `<rect width="100" height="100" rx="15" fill="orange" />`
+      );
+    });
+  });
+});

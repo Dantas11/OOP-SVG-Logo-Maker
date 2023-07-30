@@ -9,6 +9,13 @@ inquirer
       type: 'input',
       name: 'logoName',
       message: 'Please enter text, must not be more than 3 letters',
+      validate: function (input) {
+        if (input.length <= 3) {
+          return true; 
+        } else {
+          return 'Input must not be more than 3 letters'; 
+        }
+      },
     },
     {
       type: 'input',

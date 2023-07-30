@@ -1,9 +1,17 @@
-const circle = require('../lib/circle');
+const Circle = require('../lib/circle');
 
-describe('circle', () => {
-    test('Tests for a circle with orange color', () => {
-        const shape = new circle();
-        shape.setColor("orange");
-        expect(shape.render()).toEqual(`<circle cx="150" cy="115" r="80" fill="orange" />`);
+describe('Circle', () => {
+  describe('Render Method', () => {
+    it('should render circle string', () => {
+      const circle = new Circle({
+        logoName: 'Ted',
+        textColour: 'purple',
+        logoColour: 'red',
+        logoShape: 'circle',
+      });
+      expect(circle.render()).toBe(
+        `<circle cx="50" cy="50" r="50" fill="red" />`
+      );
     });
+  });
 });

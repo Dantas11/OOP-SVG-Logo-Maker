@@ -1,9 +1,17 @@
-const circle = require('../lib/circle');
+const Triangle = require('../lib/triangle');
 
-describe('circle', () => {
-    test('Tests for a circle with orange color', () => {
-        const shape = new circle();
-        shape.setColor("orange");
-        expect(shape.render()).toEqual(`<circle cx="150" cy="115" r="80" fill="orange" />`);
+describe('Triangle', () => {
+  describe('Render Method', () => {
+    it('should return triangle string', () => {
+      const triangle = new Triangle({
+        logoName: 'Mel',
+        textColour: 'purple',
+        logoColour: '#000',
+        logoShape: 'triangle',
+      });
+      expect(triangle.render()).toBe(
+        `<polygon points="100 0, 0 ,0 50, 100" fill="#000" />`
+      );
     });
+  });
 });
