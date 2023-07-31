@@ -32,7 +32,7 @@ After installing the dependencies, run the application with:
 
 node index.js
 
-Follow demonstration video for usage: 
+Follow demonstration video for usage: https://www.youtube.com/watch?v=sUxVFRbDj-w
 
 ## Licence
 
