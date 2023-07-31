@@ -2,7 +2,7 @@
 
 ## Project Description
 
-The application enables users to enter inputs into a inquirer prompt in order to generate a logo "logo.svg" file which contains the users desired results as an SVG image. 
+The application enables users to enter inputs into a inquirer prompt in order to generate a logo "logo.svg" file which contains the users desired results as an SVG image. User can choose up tp 3 letters or numbers, text color, backgroung color and logo shape.
 
 ## User Story
 
