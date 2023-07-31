@@ -18,6 +18,8 @@ SO THAT I don't have to pay a graphic designer
 
 ![Generated logo](https://github.com/Dantas11/OOP-SVG-Logo-Maker/blob/main/images/generated-logosvg.png)
 
+![Generated logo](https://github.com/Dantas11/OOP-SVG-Logo-Maker/blob/main/images/project-10.png)
+
 ## Installation
 
 To install dependencies, open a integrated terminal and run:
