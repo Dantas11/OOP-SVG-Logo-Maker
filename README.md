@@ -12,9 +12,11 @@ SO THAT I don't have to pay a graphic designer
 
 ## SCREENSHOTS
 
-![Wesite page]()
+![Command line application](https://github.com/Dantas11/OOP-SVG-Logo-Maker/blob/main/images/command-line-application.png)
 
-![Wesite page]()
+![Testing](https://github.com/Dantas11/OOP-SVG-Logo-Maker/blob/main/images/testing.png)
+
+![Generated logo](https://github.com/Dantas11/OOP-SVG-Logo-Maker/blob/main/images/generated-logosvg.png)
 
 ## Installation
 
